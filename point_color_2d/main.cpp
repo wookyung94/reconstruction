@@ -21,6 +21,7 @@ int main(int argc, char** argv)
 	std::istringstream(std::string(argv[2])) >> resolution_y;
 	int algorithm_num;
 	std::istringstream(std::string(argv[3])) >> algorithm_num;
+	std::istringstream(std::string(argv[3])) >> algorithm_idx;
 	PointColorCalculatorAlgorithm algorithm;
 	switch (algorithm_num)
 	{
